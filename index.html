@@ -103,11 +103,11 @@ code
 <div class="column">
 <header>
   <b><a href="./">Overview</a></b>
-  <a style="margin-left:1em;" href="https://github.com/AuburnSounds/Dplug">Source</a>
-  <a style="margin-left:1em;" href="https://github.com/AuburnSounds/Dplug/wiki">Documentation</a>
-  <a style="margin-left:1em;" href="https://github.com/AuburnSounds/Dplug/wiki/Getting-Started">Get started</a>
-  <a style="margin-left:1em;" href="https://github.com/AuburnSounds/Dplug/tree/master/examples">Examples</a>  
-  <a style="margin-left:1em;" href="https://github.com/AuburnSounds/Dplug/issues">Issues</a>
+  <a style="margin-left:1em;" target="_blank" href="https://github.com/AuburnSounds/Dplug">Source</a>
+  <a style="margin-left:1em;" target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki">Documentation</a>
+  <a style="margin-left:1em;" target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Getting-Started">Get started</a>
+  <a style="margin-left:1em;" target="_blank" href="https://github.com/AuburnSounds/Dplug/tree/master/examples">Examples</a>  
+  <a style="margin-left:1em;" target="_blank" href="https://github.com/AuburnSounds/Dplug/issues">Issues</a>
 </header>
 
 <h1>
@@ -137,7 +137,7 @@ code
 <p><b>Dplug</b> is an open-source audio plug-in framework.</p> 
 <p>A <b>plugin framework</b> is a library whose aim is to make cross-platform audio development a practical reality. As such, Dplug can be used to create audio effects (such as a VST 2.4) for use into popular host programs (such as Logic, Pro Tools, Cubase...). </p>
 
-<p>Dplug is hosted on GitHub: <a href="https://github.com/AuburnSounds/Dplug"><code>https://github.com/AuburnSounds/Dplug</code></a>.</p>
+<p>Dplug is hosted on GitHub: <a target="_blank" href="https://github.com/AuburnSounds/Dplug"><code>https://github.com/AuburnSounds/Dplug</code></a>.</p>
 
 <aside><a href="#contents" style="smaller">Back to Table of Contents</a></aside>
 <h2><a name="features" href="#features">#</a> Features of Dplug</h2>
@@ -150,14 +150,14 @@ code
   <li>Lightweight, low-overhead client wrappers with minimal locking.</li>
   <li>As-liberal-as-possible licensing. You still have to comply with the VST2 licence agreement, the VST3 licence agreement, and the AAX licence agreement.</li>
   <li>Public bugtracker.</li>
-  <li>Supported DAWs listed <a href="https://github.com/AuburnSounds/Dplug/wiki/Host-Support">here</a>.</li>
+  <li>Supported DAWs listed <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Host-Support">here</a>.</li>
 </ul>
 
 <h3>Options?</h3>
 
 <p>Maintaining user sessions compatibility and avoiding breaking it is of paramount importance for audio plug-ins developers.</p>
 
-<p>Dplug's answer to this is <a href="https://github.com/AuburnSounds/Dplug/wiki/Options">Dplug Options</a>. They let you upgrade Dplug without breaking user sessions. Instead you break user sessions at your own pace, when making major updates to your plug-ins.</p>
+<p>Dplug's answer to this is <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Options">Dplug Options</a>. They let you upgrade Dplug without breaking user sessions. Instead you break user sessions at your own pace, when making major updates to your plug-ins.</p>
 
 
 <aside><a href="#contents" style="smaller">Back to Table of Contents</a></aside>
@@ -168,9 +168,9 @@ code
 <p> <b>Dplug</b> has a few peculiarities compared to the other plug-in framework: </p>
 <ul>
   <li>Dplug is written in <a href="#dlanguage">the D programming language</a>.</li>
-  <li>Dplug can provide <a href="https://www.auburnsounds.com/blog/2016-09-16_PBR-for-Audio-Software-Interfaces.html">semi-procedural rendering</a> for interfaces in order to have smaller memory and disk footprint.
+  <li>Dplug can provide <a target="_blank" href="https://www.auburnsounds.com/blog/2016-09-16_PBR-for-Audio-Software-Interfaces.html">semi-procedural rendering</a> for interfaces in order to have smaller memory and disk footprint.
       This rendering is fully customizable so as to support a wide variety of shading techniques.</li>
-  <li>Dplug has been created and <a href="https://github.com/AuburnSounds/Dplug/issues">continuously maintained</a> by its original author, with the help of a newly-born community.</li>
+  <li>Dplug has been created and <a target="_blank" href="https://github.com/AuburnSounds/Dplug/issues">continuously maintained</a> by its original author, with the help of a newly-born community.</li>
   <li>Dplug is made for professional plug-in developers. It can be used free of charge, 
       however do not expect any personal support; it's not really a framework for beginners.</li>
   <li>That said, Dplug's primary goal is to <a href="#maintenance">make authoring plug-ins a pleasant experience</a>.</li>
@@ -191,9 +191,9 @@ So, what does Dplug do to make your life easier?
   <li>Support for Windows and macOS installers out of the box.</li>
   <li>Support for Apple Notarization and code-signing out of the box.</li>
   <li>Static link with the MSCRT runtime libraries to distribute only one single file.</li>
-  <li>Tutorials for setting up <a href="https://github.com/AuburnSounds/Dplug/wiki/Azure-Pipelines-CI">your own CI</a>.</li>
-  <li>A number of plug-in <a href="https://github.com/AuburnSounds/Dplug/tree/master/tools">tools</a> to speed up development or regression searching.</li>
-  <li>All breaking changes are readily documented in the <a href="https://github.com/AuburnSounds/Dplug/wiki/Release-notes">Release Notes</a>.</li>
+  <li>Tutorials for setting up <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Azure-Pipelines-CI">your own CI</a>.</li>
+  <li>A number of plug-in <a target="_blank" href="https://github.com/AuburnSounds/Dplug/tree/master/tools">tools</a> to speed up development or regression searching.</li>
+  <li>All breaking changes are readily documented in the <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Release-notes">Release Notes</a> (breaking changes are generally unavoidable).</li>
 </ul>
 
 
@@ -202,7 +202,7 @@ So, what does Dplug do to make your life easier?
 
  <img src="d.png" class="center"></img>  
 
-<p><a href="https://dlang.org">The D programming language</a> is a general-purpose programming language with static typing, systems-level access, and C-like syntax. It provides <a href="https://p0nce.github.io/d-idioms/#How-does-D-improve-on-C++17?">strong improvements</a> over C++ along with <a href="https://blog.thecybershadow.net/2014/03/21/functional-image-processing-in-d/">uniquely composable</a> new kind of abstractions (though Dplug doesn't make use of such power).</p>
+<p><a target="_blank" href="https://dlang.org">The D programming language</a> is a general-purpose programming language with static typing, systems-level access, and C-like syntax. It provides <a target="_blank" href="https://p0nce.github.io/d-idioms/#How-does-D-improve-on-C++17?">strong improvements</a> over C++ along with <a target="_blank" href="https://blog.thecybershadow.net/2014/03/21/functional-image-processing-in-d/">uniquely composable</a> new kind of abstractions (though Dplug doesn't make use of such power).</p>
 
 <p>It is very nice and trendy.</p>
 
@@ -210,9 +210,9 @@ So, what does Dplug do to make your life easier?
 
 <ul>
   <li><b>Faster builds</b> out of the box without header-only libraries or combined source.</li>
-  <li><b>Use the same compiler</b> <a href="https://github.com/ldc-developers/ldc/">(LDC)</a> for all 3 platforms without added efforts. This lessen the occurence of many platform-related compiler issues. Use the same super-powerful and recent LLVM backend for all your releases.</li>
-  <li>Generating Visual Studio projects is a single <code>dub generate visuald</code> call. <a href="https://rainers.github.io/visuald/visuald/StartPage.html">(What is VisualD?)</a></li>
-  <li><b>Using bog-standard D package manager</b> <a href="https://code.dlang.org/">DUB</a>. Language package manager are one of the major productivity improvements brought by modern languages.</li>
+  <li><b>Use the same compiler</b> <a target="_blank" href="https://github.com/ldc-developers/ldc/">(LDC)</a> for all 3 platforms without added efforts. This lessen the occurence of many platform-related compiler issues. Use the same super-powerful and recent LLVM backend for all your releases.</li>
+  <li>Generating Visual Studio projects is a single <code>dub generate visuald</code> call. <a target="_blank" href="https://rainers.github.io/visuald/visuald/StartPage.html">(What is VisualD?)</a></li>
+  <li><b>Using bog-standard D package manager</b> <a target="_blank" href="https://code.dlang.org/">DUB</a>. Language package manager are one of the major productivity improvements brought by modern languages.</li>
   <li>Builtin complex numbers. A very small plus, but it's nice.</li>
   <li>No more need to learn C++, or worse - keep up with the <i>changes</i> in C++.</li>
 </ul>
@@ -223,9 +223,8 @@ So, what does Dplug do to make your life easier?
 
 <p>Indeed, GC in D is pay-as-you-go (the more you use it, the less well it performs) and optional. </p>
 
-<p>Besides, Dplug plug-ins used to run the GC, and it <a href="https://www.auburnsounds.com/blog/2016-11-10_Running-D-without-its-runtime.html">didn't cause any particular problems</a>. </p>
+<p>Besides, Dplug plug-ins used to run the GC, and it <a target="_blank" href="https://www.auburnsounds.com/blog/2016-11-10_Running-D-without-its-runtime.html">didn't cause any particular problems</a>. </p>
 
-<p><a href="">Learn more about how the D GC work...</a><p>
 
 <aside><a href="#contents" style="smaller">Back to Table of Contents</a></aside>
 <h2><a name="downsides" href="#downsides">#</a> Downsides of Dplug</h2>
@@ -244,7 +243,7 @@ it's frequent feature development get postponed in favour of maintenance tasks, 
 <li>Dplug doesn't have an "audio processor" abstraction, or audio graphs.</li>
 </ul>
 
-We want to do all of those, but didn't get the time. Check the <a href="https://github.com/AuburnSounds/Dplug/wiki/Release-notes">Release Notes</a> to get an idea of Dplug's velocity.
+We want to do all of those, but didn't get the time. Check the <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Release-notes">Release Notes</a> to get an idea of Dplug's velocity.
 
 <aside><a href="#contents" style="smaller">Back to Table of Contents</a></aside>
 <h2><a name="alternatives" href="#alternatives">#</a> Alternatives to Dplug</h2>
@@ -252,9 +251,9 @@ We want to do all of those, but didn't get the time. Check the <a href="https://
 Be sure to consider the alternatives before settling on a plug-in framework.
 
 <ul>
-  <li><a href="https://juce.com/">JUCE</a></li>
-  <li><a href="https://github.com/iPlug2/iPlug2">iPlug 2</a></li>
-  <li><a href="https://github.com/DISTRHO/DPF">DPF - DISTROH Plugin Framework</a></li>
+  <li><a target="_blank" href="https://juce.com/">JUCE</a></li>
+  <li><a target="_blank" href="https://github.com/iPlug2/iPlug2">iPlug 2</a></li>
+  <li><a target="_blank" href="https://github.com/DISTRHO/DPF">DPF - DISTROH Plugin Framework</a></li>
 </ul>
 
 <aside><a href="#contents" style="smaller">Back to Table of Contents</a></aside>
@@ -262,8 +261,8 @@ Be sure to consider the alternatives before settling on a plug-in framework.
 
 Check out the products made with Dplug.
 <ul>
-  <li><a href="https://www.auburnsounds.com">Auburn Sounds</a> plug-ins</li>
-  <li><a href="https://www.cutthroughrecordings.com/">Cut Through Recordings</a> plug-ins</li>
+  <li><a target="_blank" href="https://www.auburnsounds.com">Auburn Sounds</a> plug-ins</li>
+  <li><a target="_blank" href="https://www.cutthroughrecordings.com/">Cut Through Recordings</a> plug-ins</li>
 </ul>
 
 
@@ -271,10 +270,10 @@ Check out the products made with Dplug.
 <h2><a name="gettingstarted" href="#gettingstarted">#</a> Getting started</h2>
 
 <ul>
-  <li><a href="https://github.com/AuburnSounds/Dplug/wiki/Getting-Started">Get Started with your first Dplug plug-in</a>
-  <li><a href="https://discord.gg/qzRJ52b">Chat with us in our #audiodev Discord channel</a>
-  <li><a href="https://github.com/AuburnSounds/Dplug/wiki/Bug-Bounty-Program">Get paid to work on Dplug</a>
-  <li><a href="https://github.com/AuburnSounds/Dplug/blob/master/DSP_Asset_Store.md">Shop for DSP algorithms on the DSP Asset Store</a>
+  <li><a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Getting-Started">Get Started with your first Dplug plug-in</a>
+  <li><a target="_blank" href="https://discord.gg/qzRJ52b">Chat with us in our #audiodev Discord channel</a>
+  <li><a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Bug-Bounty-Program">Get paid to work on Dplug</a>
+  <li><a target="_blank" href="https://github.com/AuburnSounds/Dplug/blob/master/DSP_Asset_Store.md">Shop for DSP algorithms on the DSP Asset Store</a>
 </ul>
 
 
