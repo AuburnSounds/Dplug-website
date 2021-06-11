@@ -126,7 +126,6 @@ code
 
 <h2><a id="contents" href="#contents">#</a> Table of contents</h2>
 <ul>
-  <li><a href="#contents">Table of Contents</a></li>
   <li><a href="#introduction">Introduction</a></li>
   <li><a href="#features">Features of Dplug</a></li>
   <li><a href="#differences">What makes Dplug different?</a></li>
@@ -156,7 +155,7 @@ code
   <li>Lightweight, low-overhead client wrappers with minimal locking.</li>
   <li>As-liberal-as-possible licensing. You still have to comply with the VST2 licence agreement, the VST3 licence agreement, and the AAX licence agreement.</li>
   <li>Public bugtracker.</li>
-  <li>Sophisticated games-like softwarer renderer.</li>
+  <li>Sophisticated PBR games-like software renderer, and also a fast rasterizer for real-time controls.</li>
   <li>Supported DAWs listed <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Host-Support">here</a>.</li>
 </ul>
 
@@ -245,13 +244,14 @@ So, what does Dplug do to make your life easier?
 <p>Because Dplug receives about 6 man-months of work every year, 
 it's frequent feature development get postponed in favour of maintenance tasks, such as keeping up with macOS.</p>
 
-<p>Here is a list of missing features: (as of early 2020)</p>
+<p>Here is a list of missing features: (as of June 2021)</p>
 <ul>
 <li>HiDPI</li>
 <li>MIDI output</li>
 <li>Sidechain input</li>
+<li>AUv3 and iOS support</li>
 <li>Non-automatable data that would be stored in chunks (example: stored impulse response)</li>
-<li>Dplug doesn't have an "audio processor" abstraction, or audio graphs.</li>
+<li>Very limited plugin hosting, no "audio processor" abstraction.</li>
 </ul>
 
 <p>We want to do all of those items, but didn't get the time yet. Check the <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Release-notes">Release Notes</a> to get an idea of Dplug's velocity.</p>
@@ -269,7 +269,7 @@ Be sure to consider the alternatives before settling on a plug-in framework.
   <li><a target="_blank" href="https://github.com/DISTRHO/DPF">DPF - DISTROH Plugin Framework</a></li>
 </ul>
 
-For example, JUCE has implemented every one of the missing features listed above.
+For example, JUCE has implemented every one of the missing features listed above, and is possibly more beginner-friendly.
 
 <aside><a href="#contents" class="smaller">Back to Table of Contents</a></aside>
 <h2><a id="madewithdplug" href="#madewithdplug">#</a> Made with Dplug</h2>
