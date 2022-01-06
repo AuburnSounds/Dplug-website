@@ -157,6 +157,7 @@ code
   <li>Lightweight, low-overhead client wrappers.</li>
   <li>Trying to be liberal with licensing. You still have to comply with the VST2 licence agreement, the VST3 licence agreement, and the AAX licence agreement. In particular Avid is a gatekeeper for the DPlug AAX client. Dplug is forkable.</li>
   <li>Sophisticated PBR games-like software renderer, and also a fast 2D rasterizer for real-time controls.</li>
+  <li>Script and resizing support.</li>
   <li>Supported DAWs listed <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Host-Support">here</a>.</li>
 </ul>
 
@@ -164,7 +165,7 @@ code
 
 <p>Maintaining user sessions compatibility and avoiding breaking it is of paramount importance for audio plug-ins developers.</p>
 
-<p>Often you'll want to update Dplug to a major version, but still retain user sessions compatibility. Other frameworks use C preprocessor macros for that purpose.</p>
+<p>Often you'll want to update Dplug to a major version, but still retain user sessions compatibility.</p>
 
 <p>Dplug's answer to this is <a target="_blank" href="https://github.com/AuburnSounds/Dplug/wiki/Options">Dplug Options</a>. They let you upgrade Dplug without breaking user sessions. Instead you break user sessions at your own pace, when making major updates to your plug-ins.</p>
 
@@ -179,6 +180,7 @@ code
   <li>Dplug is written in <a href="#dlanguage">the D programming language</a>.</li>
   <li>Dplug can provide <a target="_blank" href="https://www.auburnsounds.com/blog/2016-09-16_PBR-for-Audio-Software-Interfaces.html">semi-procedural rendering</a> for interfaces in order to have smaller memory and disk footprint.
       This rendering is fully customizable so as to support a wide variety of shading techniques. It doesn't use the GPU, so it's very stable and never cause OpenGL driver issues.</li>
+  <li>Dplug can use the Wren programming language as an "imperative CSS" to speed-up authoring.</li>  
   <li>Dplug is solely made for professional plug-in developers. It can be used free of charge, 
       however do not expect any personal support; it's not really a framework for beginners.</li>
   <li>That said, Dplug tries to <a href="#maintenance">make authoring plug-ins a pleasant experience</a>.</li>
@@ -195,6 +197,7 @@ so that you don't get unforeseen work without your consent.</p>
 
 So, what does Dplug do to make your life easier?
 <ul>
+  <li>UI live-coding throught <a target="https://wren.io/">Wren</a> integration.</li>
   <li>Building plug-ins for a single platform is a single <code>dplug-build</code> command-line invocation.</li>
   <li>Support for Windows and macOS installers out of the box.</li>
   <li>Support for Apple Notarization and code-signing out of the box.</li>
